@@ -5,4 +5,4 @@ ranger.addEventListener('ranger', changer);
 
 function changer(event) {
     abra.style.fontSize = event.currentTarget.value + 'px';
-}
+};
