@@ -1,8 +1,8 @@
-const range = document.getElementById('font-size-control');
-const abra = document.getElementById('text');
+const ranger = document.querySelector('#font-size-control');
+const abra = document.querySelector('#text');
 
-range.addEventListener('range', change);
+ranger.addEventListener('ranger', changer);
 
-function change(event) {
-    abra.style.fontSize = event.currentTarget.value + 'px';
+function changer(event) {
+    abra.style.fontSize = event.currentTarget.value + "px";
 }
